@@ -29,7 +29,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  $('input:submit').on('keydown', function() {
+  $('input: submit').on('keydown', function() {
     alert("Your form is going to be submitted now.");
   });
 }
